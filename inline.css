@@ -1,0 +1,43 @@
+<!--inline CSS -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color: beige;background-color: aquamarine;">HELLO</h1>
+
+<p style="color:black;">WORLD</p>
+
+</body>
+</html>
+
+<!--internal CSS -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1   {background-color:aquamarine;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>HELLO</h1>
+<p>WORLD</p>
+
+</body>
+</html>
+
+<!--External CSS-->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="quiz/quiz.css">
+</head>
+<body>
+
+<h1>HELLO</h1>
+<h3>WORLD</h3>
+
+</body>
+</html>
